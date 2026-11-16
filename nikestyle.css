@@ -1,0 +1,94 @@
+.topbar {
+      height: 45px;
+      background-color: rgb(252, 248, 248);
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding-right: 35px;
+      gap: 12px;
+      font-size: 14px;
+    }
+    .navbar {
+      height: 75px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 25px 0 15px;
+      background-color: white;
+    }
+     .logo {
+      font-size: 30px;
+      font-weight: bold;
+      font-style: italic;
+    }
+     .menu {
+      display: flex;
+      gap: 25px;
+      margin-left: 130px;
+      justify-content: center;
+    }
+     .menu a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: 17px;
+    
+    }
+
+     .right-side {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .bottomnav{
+        background-color: rgb(165, 157, 157);
+        height: 80px;
+        width: 1515px;
+        
+        justify-items: center;
+        
+    }
+    .navbar-text{
+      color: black;
+    }
+    .navbar ul li a :hover{
+      color: gray;
+
+    }
+    
+.header-nav ul li a {
+  display: inline-block;
+  position: relative;
+}
+
+
+    .header-nav ul li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    left: 0%;
+    bottom: 0%;
+    position: absolute;
+}
+.header-nav ul li a:hover::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    left: 0%;
+    bottom: 0%;
+    position: absolute;
+}
+.navbar-text{
+    color: black;
+}
+.container-fluid .col{
+    padding: 0px;
+}
+.wrapper{
+  width: 800px;
+}
+
+
+   
